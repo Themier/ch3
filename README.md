@@ -2,12 +2,6 @@
 
 ---
 
-## 安装
-
-pip install ch3
-
----
-
 ## 用法示例
 
 ```python
