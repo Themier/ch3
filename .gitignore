@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.vscode/
+.env
+.vs/
+demo.py
+winAddLink.bat
