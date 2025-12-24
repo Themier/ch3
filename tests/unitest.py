@@ -1,5 +1,10 @@
-import unittest, sys
-sys.path.append('../src/')
+
+""" 单元测试
+
+"""
+
+import unittest, sys, os
+sys.path.append(os.path.join(os.path.dirname(__file__), '../src'))
 from ch3 import ChineseCharChecker
 
 
@@ -7,7 +12,6 @@ class TestChineseCharChecker(unittest.TestCase):
 
     def setUp(self):
         self.checker = ChineseCharChecker()
-        self.checker.check_series('1122三4')
 
     # -------------------
     # 测试 check 方法
