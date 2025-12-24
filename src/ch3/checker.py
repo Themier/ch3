@@ -153,3 +153,9 @@ class ChineseCharChecker():
             return False
         return all(self.check(c) for c in s)
 
+    def check_series(self, seq):
+        """检查字符序列，返回布尔值列表"""
+        if not seq:
+            return []
+        return [self.check(c) for c in seq]
+
